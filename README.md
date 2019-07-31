@@ -21,7 +21,7 @@ See the classroom instruction and code comments for more details on each of thes
 * OpenCV >= 4.1
   * This must be compiled from source using the `-D OPENCV_ENABLE_NONFREE=ON` cmake flag for testing the SIFT and SURF detectors.
   * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
-```
+``
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.1.0/modules \
@@ -46,7 +46,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D BUILD_NEW_PYTHON_SUPPORT=ON \
 -D OPENCV_GENERATE_PKGCONFIG=ON \
 -D OPENCV_ENABLE_NONFREE=ON ../ 
-`
+``
 * gcc/g++ >= 5.4
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
